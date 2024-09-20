@@ -1,11 +1,11 @@
 This is a working progress, but should allow the generation of a sample database to build some data pipelines with.
 
-Tables:
-    Customer:
+- Tables:
+    - [x] Customer:
         - ID
         - Name
         - DOB
-    Customer_Address:
+    - [x] Customer_Address:
         - ID
         - Customer ID
         - Address Line 1
@@ -13,26 +13,24 @@ Tables:
         - City
         - State
         - Zip
-    Order:
+    - [x] Order:
         - ID
         - Customer ID
         - Address ID
         - Order Date
         - Order Paid Amount
-
-Still to do:
-    Order Status:
+    - [ ] Order Status:
         - ID
         - Order ID
         - Status
         - Status Date
-    Order_Line_Item:
+    - [ ] Order_Line_Item:
         - ID
         - Order ID
         - Stock ID
         - Quantity
         - Paid Amount
-    Stock:
+    - [ ] Stock:
         - ID
         - Name
         - Quantity
