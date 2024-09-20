@@ -8,8 +8,7 @@ This is a working progress, but should allow the generation of a sample database
     - [x] Customer_Address:
         - ID
         - Customer ID
-        - Address Line 1
-        - Address Line 2
+        - Address Line
         - City
         - State
         - Zip
@@ -19,18 +18,18 @@ This is a working progress, but should allow the generation of a sample database
         - Address ID
         - Order Date
         - Order Paid Amount
-    - [ ] Order Status:
+    - [x] Order Status:
         - ID
         - Order ID
         - Status
         - Status Date
-    - [ ] Order_Line_Item:
+    - [x] Order_Line_Item:
         - ID
         - Order ID
         - Stock ID
         - Quantity
         - Paid Amount
-    - [ ] Stock:
+    - [x] Stock:
         - ID
         - Name
         - Quantity
